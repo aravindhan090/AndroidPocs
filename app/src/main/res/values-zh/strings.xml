@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="page_title">产品展示页</string>
+    <string name="desc_heading">说明：</string>
+    <string name="rev_heading">评论：</string>
+    <string name="add_button">添加到购物车</string>
+    <string name="checkout_button">查看</string>
+</resources>

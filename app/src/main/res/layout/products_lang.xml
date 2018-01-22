@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/top_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/product_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/onefifty_dp"
+            android:src="@drawable/bear_tshirt" />
+
+        <TextView
+            android:id="@+id/product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Romano Men's Casual Tee"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/twenty_dp" />
+
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/forty_dp"
+            android:fontFamily="sans-serif"
+            android:text="12345678"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/twenty_dp" />
+
+        <TextView
+            android:id="@+id/desc_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/desc_heading"
+            android:textColor="@color/colorblack"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/five_dp"
+            android:layout_toRightOf="@+id/product_image"
+            android:fontFamily="sans-serif"
+            android:text="tttttterer"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/fifteen_dp" />
+
+        <TextView
+            android:id="@+id/review_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/five_dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/rev_heading"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/twenty_dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/product_reviews"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/thirty_dp"
+            android:layout_marginTop="@dimen/five_dp"
+            android:fontFamily="sans-serif"
+            android:text="asdfgh"
+            android:textColor="@color/colorblack"
+            android:textSize="@dimen/fifteen_dp" />
+
+        <RatingBar
+            android:id="@+id/ratingsbar"
+            style="@style/CustomRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_price"
+            android:foregroundGravity="left"
+            android:numStars="5"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:stepSize="0.5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_section"
+        android:layout_marginStart="@dimen/ten_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/addtocart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="sans-serif"
+            android:paddingEnd="@dimen/ten_dp"
+            android:paddingStart="@dimen/ten_dp"
+            android:text="@string/add_button"
+            android:textColor="@color/colorblack"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/checkout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/twenty_dp"
+            android:background="@drawable/buttonshape"
+            android:fontFamily="sans-serif"
+            android:paddingEnd="@dimen/ten_dp"
+            android:paddingStart="@dimen/ten_dp"
+            android:text="@string/checkout_button"
+            android:textColor="@color/colorblack"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

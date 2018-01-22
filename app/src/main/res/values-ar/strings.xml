@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources>
+
+    <string name="page_title">صفحة عرض المنتج</string>
+    <string name="desc_heading">وصف :</string>
+    <string name="rev_heading">إعادة النظر :</string>
+    <string name="add_button">أضف إلى السلة</string>
+    <string name="checkout_button">الدفع</string>
+</resources>
